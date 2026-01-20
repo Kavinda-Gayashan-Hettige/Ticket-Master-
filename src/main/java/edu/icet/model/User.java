@@ -17,8 +17,3 @@ public class User {
     @Enumerated(EnumType.STRING)
     private UserTier tier;
 }
-
-
-enum UserTier {
-    REGULAR, VIP, PLATINUM
-}
